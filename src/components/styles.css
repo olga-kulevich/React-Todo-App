@@ -1,0 +1,75 @@
+.app-container {
+  margin: 0 auto;
+  max-width: 620px;
+  background: #1aa3ff;
+  color: white;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-title {
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.todo-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.todo-item {
+  border: 3px solid  #ff80df;
+  margin: 5px;
+  width: inherit;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-text {
+  word-break: break-all;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.delete-button {
+  background: unset;
+  border: unset;
+  cursor: pointer;
+}
+
+.delete-icon {
+  color: #ffdb4d;
+  font-size: 18px;
+  padding-right: 10px;
+}
+
+.todo-form {
+  margin: 10px;
+}
+
+.form-input {
+  border: unset;
+  border-radius: 5px;
+  padding: 5px;
+  width: 350px;
+  font-size: 18px;
+}
+
+.add-btn {
+  width: 50px;
+  height: 30px;
+  margin: 10px;
+  border: unset;
+  border-radius: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: white;
+  font-size: 16px;
+  background-color: #8533ff;
+  font-weight: 600;
+}
+
+.add-btn:disabled {
+  cursor: not-allowed;
+}
