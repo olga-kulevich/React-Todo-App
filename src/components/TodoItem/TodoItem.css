@@ -1,0 +1,50 @@
+.todo-item {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin-bottom: 30px;
+    width: inherit;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo-item:hover {
+    background: #FFFFFF;
+    border: 1px solid rgba(47, 128, 237, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.todo-text {
+    word-break: break-all;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.delete-button {
+    border: unset;
+    cursor: pointer;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.important {
+    font-weight: bold;
+}
+
+.gray {
+    background: #E2E2E2;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.green {
+    background: lightseagreen;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
